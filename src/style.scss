@@ -1,0 +1,144 @@
+
+.brewery-of-day {
+    background: linear-gradient(135deg, #ff8800, #ff4b2b);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-orange {
+    background: linear-gradient(135deg, #ff8800, #ff4b2b);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  
+  .btn-orange:hover {
+    background: linear-gradient(135deg, #ff7b00, #ff3c1a);
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  // Bottoni secondari outline
+  .btn-outline-orange {
+    background: transparent;
+    border: 2px solid #ff6f00;
+    color: #ff6f00;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 50px;
+    padding: 8px 18px;
+  }
+  
+  .btn-outline-orange:hover {
+    background: #ff6f00;
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  // Card birrerie
+  .brewery-card {
+    border-radius: 20px;
+    background-color: #fffdf7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .brewery-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  // Animazione fade-in
+  .fade-in {
+    opacity: 0;
+    animation: fadeInMove 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInMove {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .footer-custom {
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #eee;
+    margin-top: 60px;
+  }
+  
+  .footer-custom a {
+    color: #ff6f00;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .footer-custom a:hover {
+    text-decoration: underline;
+  }
+
+  // Modalità scura
+.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  .dark-mode .container {
+    background-color: #121212;
+  }
+  
+  .dark-mode .card {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    border: 1px solid #333;
+  }
+  
+  .dark-mode .brewery-of-day {
+    background: linear-gradient(135deg, #ab8357, #721302);
+    color: #fff;
+  }
+  
+  .dark-mode .btn-orange {
+    background: linear-gradient(135deg, #ab8357, #721302);
+    color: white;
+  }
+  
+  .dark-mode .btn-orange:hover {
+    background: linear-gradient(135deg, #ab8357, #721302);
+    color: white;
+  }
+  
+  .dark-mode .btn-outline-orange {
+    border: 2px solid #8d482a;
+    color: #8d482a;
+  }
+  
+  .dark-mode .btn-outline-orange:hover {
+    background: #8d482a;
+    color: white;
+  }
+  
+  .dark-mode .footer-custom {
+    border-top: 1px solid #333;
+    color: #aaa;
+  }
+  
+  .dark-mode .footer-custom a {
+    color: #ff8800;
+  }
+
+  .dark-mode .dark-mode-button {
+    color: white;
+    border: solid 1px;
+  }
+  
+  
